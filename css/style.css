@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* header */
+header{
+    background-image: linear-gradient(0deg, rgba(35, 23, 144, 0.493), rgba(53, 22, 22, 0.582)), url(/bg.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo h1{
+    color: #fff;
+    font-size: 3rem;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-right: 2rem;
+}
+
+.header-contain{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-contain h1{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 8px;
+    margin-bottom: 2%;
+}
+
+.header-contain h2{
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    margin-bottom: 2%;
+}
+
+.header-contain button{
+    background: tomato;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+}
+
+/* About */
+
+.about-container{
+    padding-bottom: 8%;
+}
+.about-container h1{
+    font-size: 3rem;
+    padding: 5% 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about-us{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.about-us img{
+    width: 400px;
+    margin-right: 5%;
+}
+
+/* .about-content{
+    margin-left: ;
+} */
+
+.about-content h2{
+    font-size: 1.5rem;
+    margin-bottom: 6%;
+}
+
+.about-content p{
+    font-size: 1rem;
+    margin-bottom: 3%;
+}
+
+.about-content button{
+    background: tomato;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+}
+
+/* service */
+
+.service{
+    background: lightgrey;
+    height: 800px;
+    padding-top:5% ;
+}
+
+.service h1{
+    font-size: 3rem;
+    padding: 5% 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.service-option{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.service-option {
+    text-align: center;
+}
+
+.service-option i{
+    color: rgb(212, 40, 40);
+    font-size: 3rem;
+    padding-bottom: 10%;
+}
+
+.service-option h2{
+    font-size: 1.3rem;
+    padding-bottom: 10%;
+}
+
+.service-option p{
+    line-height: 2;
+}
+
+/* contact */
+
+.contact h1{
+    font-size: 3rem;
+    padding: 5% 0;
+    text-align: center;
+    text-transform: uppercase;
+}
